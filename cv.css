@@ -1,0 +1,173 @@
+/* Start Main Rulz */
+body{
+    direction: ltr;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width: 940px;
+    margin: 20px auto;
+    background: rgb(167, 167, 167);
+}
+/* End Main Rulz */
+
+/* Start Header */
+header{
+    background-color: orange;
+    overflow: hidden;
+    margin: auto;
+}
+header .logo{
+    width: 30%;
+    float: left;
+}
+header .logo img{
+    border-radius: 50%;
+    height: 130px;
+    margin: 45px 45px 0 130px;
+    background: #fff;
+}
+header .defin{
+    float: right;
+    color: #fff;
+    margin: 20px;
+    width: 60%;
+    margin-left: 50px;
+    font-size: 12px;
+}
+header .defin .name{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+header .defin .proffess{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* End Header */
+
+/* Start Contant Body */
+._body{
+    background: #fff;
+    overflow: hidden;
+    padding: 10px;
+}
+/* Start Left Section */
+._body .left{
+    float: left;
+    width: 50%;
+    display: block;
+    /* text-align: center; */
+}
+._body .left .mark{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+._body .left ._ln{
+    overflow: hidden;
+}
+._body .left ._ln i{
+    width: 20%;
+    text-align: center;
+    color: orange;
+}
+._body .left ._ln span{
+    font-weight: bold;
+    font-size: 18px;
+    width: 65%;
+    text-align: left;
+}
+progress[id="English"]::-webkit-progress-value{
+    background: orange;
+}
+progress[id="German"]::-webkit-progress-value{
+    background:  rgb(88, 160, 228);
+}
+progress[id="Spanish"]::-webkit-progress-value{
+    background: red;
+}
+progress,progress::-webkit-progress-bar{
+    background: #dbdada;
+    height: 18px;
+    border: none;
+    width: 75%;
+    margin-bottom: 15px;
+}
+/* Skills */
+.circuler{
+    width: 100%;
+    overflow: hidden;
+    /* width: 20%; */
+}
+svg{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+svg text{
+    font-weight: bold;
+    font-size: 22px;
+}
+svg circle {
+    /* stroke-dashoffset: 90%; */
+    /* transition: stroke-dashoffset 1s linear; */
+    stroke-width: 10; 
+}
+/* end skills */
+.cener{
+    text-align: center;
+}
+._body img{
+    height: 30px;
+    vertical-align:middle
+}
+.cener span{
+    margin-right: 20px;
+    margin-left: 5px;
+}
+/* End Left Section */
+
+/* Start Right Section */
+._body .right{
+    float: right;
+    width: 50%;
+}
+._body .right section .title_pranch{
+    background: orange;
+    width: 70%;
+    padding: 10px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 25px 0 20px 0;
+}
+._body .right section p{
+    margin-left: 22px;
+    font-size: 15px;
+}
+._body .right section p span{
+    font-weight: 1000;
+    font-size: 16px;
+}
+/* Start Right Section */
+/* End Contant Body */
+/* Start Audio */
+audio{
+    display: none;
+}
+/* End Audio */
+
+/* Start Footer */
+footer {
+    overflow: hidden;
+    margin: auto;
+}
+footer section{
+    float: left;
+    width: 33.33333%;
+    height: 20px;
+}
+footer section[id="1"]{background: red;}
+footer section[id="2"]{background: orange;}
+footer section[id="3"]{background: rgb(88, 160, 228);}
+/* End Footer */
